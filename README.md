@@ -1,8 +1,26 @@
-# Hackathon1Sub
+# Model Exploration Hackathon: My Modeling Journey
 
-## Small Writeup for Hackathon1
-Basically I applied 3 different Models for this hackathon.
-The first model being the linear regression model,in this model I tried to find the features which were best suited for fitting using scatter plots.I also did outlier analysis which improved the accuracy of the model...then I converted the linear regression model to polynomial regression model(degree 2) which gave further improvement in fitting.
-After this much I was unable to improve the fitting using linear regression..(at that time I only knew linear and logistic regression) so I searched the web for models which could improve my fitting ... then after some research I decided to apply random forest regressor ... the score did not improve using this model.
-So, then I applied support vector regression(I had no idea of this model) , so I surfed the web regarding this model, tried to grasp some of the details of this model.... took segments of it's code from net and applied this model...after making many tweeks, accuracy of this model was better than the linear regression model(I got to rank 9-10 something by this model and was pretty much satisfied.............  :)    ).
-Then after some more research and towards the end of the hackathon I found that the fitting can be improved further using neural network(again I had no idea of this) so , using web I studied this and implemented its code and after making some changes my score improved!
+For this hackathon, I experimented with a series of machine learning models to improve the accuracy of predictions. Here's a breakdown of my approach:
+
+## Step 1: Linear Regression
+I started with a **Linear Regression model**, analyzing features that best suited the dataset using scatter plots. Outlier analysis played a significant role in improving the model's accuracy. Despite these optimizations, the model's performance plateaued.
+
+## Step 2: Polynomial Regression
+Next, I extended Linear Regression to **Polynomial Regression (degree 2)**. This significantly enhanced the fitting of the data. However, further improvements were not achievable with my knowledge at the time (limited to Linear and Logistic Regression).
+
+## Step 3: Exploring Advanced Models
+After researching online, I experimented with:
+
+1. **Random Forest Regressor**: Surprisingly, this did not improve the score.  
+2. **Support Vector Regression (SVR)**:  
+   - I was new to this model and learned about it from online resources.  
+   - By tweaking its parameters and experimenting with the code, I achieved better accuracy than Linear Regression.  
+   - This improvement pushed my ranking to 9–10, which was exciting and satisfying.
+
+## Step 4: Neural Networks
+Towards the end of the hackathon, I learned about **Neural Networks**. Although I had no prior knowledge, I researched the basics and implemented a simple neural network model. By carefully fine-tuning the network, I managed to achieve a noticeable improvement in my score.
+
+---
+
+## Reflections
+This hackathon was a significant learning experience. It encouraged me to explore new models, understand their mechanics, and enhance my problem-solving skills under time constraints. From basic regression techniques to experimenting with neural networks, this journey helped me grow as a budding data scientist.
