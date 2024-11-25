@@ -1,5 +1,7 @@
 # Model Exploration Hackathon: My Modeling Journey
 
+**Achievement**: I secured **Campus Rank 1** in this hackathon!
+
 For this hackathon, I experimented with a series of machine learning models to improve the accuracy of predictions. Here's a breakdown of my approach:
 
 ## Step 1: Linear Regression
